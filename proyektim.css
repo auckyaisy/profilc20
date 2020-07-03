@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container h2 {
+    opacity: 1;
+    font-family: sans-serif;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(https://www.consignor.com/wp-content/uploads/2019/06/Senior-Front-End-Developer-1080x675.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.top-wrapper h1 {
+    opacity: 5;
+    font-size: 90px;
+    letter-spacing: 7px;
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+
+.top-wrapper p {
+    opacity: 1;
+    margin-bottom: 3px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.contact {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 50px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading h2 {
+    font-weight: normal;
+    padding-top: 30px;
+}
+
+.heading h3 {
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.lesson {
+    float: left;
+    width: 20%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+.lesson-icon p {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #57606f;
+    font-family: sans-serif;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 30px;
+    background-color: #2d98da;
+    cursor: pointer;
+    box-shadow: 0px 7px #227093;
+    color: white;
+    font-family: sans-serif;
+}
+
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+.lesson-icon img {
+    width: 60%;
+    height: 300px;
+    padding-top: 30px;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+ 
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+ 
+.logo {
+    width: 80px;
+    margin-top: 10px;
+}
+ 
+.header-left {
+    float: left;
+}
+ 
+.header-right {
+    float: right;
+    margin-right: -25px;
+}
+ 
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: #164993;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-family: 'Montserrat';
+}
+ 
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+ 
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+}
