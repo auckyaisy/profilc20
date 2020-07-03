@@ -1,0 +1,56 @@
+@media all and (max-width: 1000px){
+    .container{
+        width: 100%;
+    }
+
+    .header-right a {
+        padding: 0 10px;
+        margin-right: 20px;
+    }
+
+    .top-wrapper h1{
+        font-size: 40px;
+    }
+
+    .top-wrapper h2{
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 670px) {
+.header-right {
+    display: none;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .lesson {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  header {
+    text-align: center;
+  }
+
+}

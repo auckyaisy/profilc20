@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: "Lucida Grande";
@@ -8,7 +12,7 @@ a {
 }
 
 .container {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -45,6 +49,12 @@ a {
 .contact {
     background-color: white;
     font-family: sans-serif;
+}
+
+.contact:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
 
 .btn {
@@ -137,7 +147,7 @@ a {
     padding: 0 15px;
     margin: 0 auto;
 }
- 
+
 header {
     height: 65px;
     width: 100%;
@@ -146,21 +156,21 @@ header {
     top: 0;
     z-index: 10;
 }
- 
+
 .logo {
     width: 80px;
     margin-top: 10px;
 }
- 
+
 .header-left {
     float: left;
 }
- 
+
 .header-right {
     float: right;
     margin-right: -25px;
 }
- 
+
 .header-right a {
     line-height: 65px;
     padding: 0 25px;
@@ -170,15 +180,26 @@ header {
     transition: all 0.5s;
     font-family: 'Montserrat';
 }
- 
+
 .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
-}
- 
-.menu-icon {
+    background-color:black;
     color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
 }
+
+
+
+footer {
+  background-color:#c8d6e5;
+  font-family: 'Montserrat';
+}
+
+footer p {
+  font-style: oblique;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+footer img {
+  padding-top: 20px;
+}
+
